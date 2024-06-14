@@ -1,0 +1,20 @@
+/* Hides an element by default and sets a transition property for opacity change */
+.hidden {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+/* Shows an element by setting its opacity to 1 */
+.show {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Styles for when the user prefers reduced motion */
+  .hidden, .show {
+    transition: none;
+    opacity: 1;
+  }
+  
+}

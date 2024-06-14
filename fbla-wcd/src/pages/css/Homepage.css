@@ -1,0 +1,47 @@
+/* Set default values for all elements */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the sections container */
+.sections {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the images */
+.images {
+  width: 60%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+/* Style for the text container */
+.texts {
+  width: 50%;
+  min-height: 400px;
+  background-color: #ebeaea;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding: 45px;
+  border-radius: 10px;
+  color: black;
+}
+
+/* Style for the main heading */
+.texts h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+/* Style for the paragraph text */
+.texts p {
+  margin: 20px 0;
+}
