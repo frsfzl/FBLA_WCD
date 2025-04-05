@@ -9,7 +9,7 @@ export default function Careers() {
       {/* Hero section for Careers page */}
       <div className="hero-container">
         <video
-          src="../../public/videos/careers-video.mp4"
+          src="/videos/careers-video.mp4"
           autoPlay
           loop
           muted
