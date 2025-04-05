@@ -13,7 +13,7 @@ export default function Benefits() {
       {/* HeroSection for the Benefits page */}
       <div className="hero-container">
         <video
-          src="../../public/videos/benefits-video.mp4"
+          src="/videos/benefits-video.mp4"
           autoPlay
           loop
           muted
